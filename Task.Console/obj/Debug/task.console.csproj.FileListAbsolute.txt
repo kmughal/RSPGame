@@ -1,0 +1,9 @@
+C:\Users\LON0200515\Desktop\task\task.program\task.console\task.console\bin\Debug\task.console.exe.config
+C:\Users\LON0200515\Desktop\task\task.program\task.console\task.console\bin\Debug\task.console.exe
+C:\Users\LON0200515\Desktop\task\task.program\task.console\task.console\bin\Debug\task.console.pdb
+C:\Users\LON0200515\Desktop\task\task.program\task.console\task.console\obj\Debug\task.console.csprojResolveAssemblyReference.cache
+C:\Users\LON0200515\Desktop\task\task.program\task.console\task.console\obj\Debug\task.console.exe
+C:\Users\LON0200515\Desktop\task\task.program\task.console\task.console\obj\Debug\task.console.pdb
+C:\Users\LON0200515\Desktop\task\Task\task.console\task.console\bin\Debug\task.console.exe.config
+C:\Users\LON0200515\Desktop\task\Task\task.console\task.console\obj\Debug\task.console.exe
+C:\Users\LON0200515\Desktop\task\Task\task.console\task.console\obj\Debug\task.console.pdb
