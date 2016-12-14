@@ -9,3 +9,14 @@ C:\Users\LON0200515\Desktop\task\task.program\task.console\Task.Tests\Task.Tests
 C:\Users\LON0200515\Desktop\task\task.program\task.console\Task.Tests\Task.Tests\bin\Debug\Moq.dll
 C:\Users\LON0200515\Desktop\task\task.program\task.console\Task.Tests\Task.Tests\bin\Debug\Castle.Core.xml
 C:\Users\LON0200515\Desktop\task\task.program\task.console\Task.Tests\Task.Tests\bin\Debug\Moq.xml
+C:\Task\Task.Tests\Task.Tests\bin\Debug\Task.Tests.dll
+C:\Task\Task.Tests\Task.Tests\bin\Debug\Task.Tests.pdb
+C:\Task\Task.Tests\Task.Tests\bin\Debug\Castle.Core.dll
+C:\Task\Task.Tests\Task.Tests\bin\Debug\Moq.dll
+C:\Task\Task.Tests\Task.Tests\bin\Debug\task.console.exe
+C:\Task\Task.Tests\Task.Tests\bin\Debug\task.console.pdb
+C:\Task\Task.Tests\Task.Tests\bin\Debug\Castle.Core.xml
+C:\Task\Task.Tests\Task.Tests\bin\Debug\Moq.xml
+C:\Task\Task.Tests\Task.Tests\obj\Debug\Task.Tests.csprojResolveAssemblyReference.cache
+C:\Task\Task.Tests\Task.Tests\obj\Debug\Task.Tests.dll
+C:\Task\Task.Tests\Task.Tests\obj\Debug\Task.Tests.pdb

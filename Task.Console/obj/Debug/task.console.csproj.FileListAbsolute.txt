@@ -7,3 +7,9 @@ C:\Users\LON0200515\Desktop\task\task.program\task.console\task.console\obj\Debu
 C:\Users\LON0200515\Desktop\task\Task\task.console\task.console\bin\Debug\task.console.exe.config
 C:\Users\LON0200515\Desktop\task\Task\task.console\task.console\obj\Debug\task.console.exe
 C:\Users\LON0200515\Desktop\task\Task\task.console\task.console\obj\Debug\task.console.pdb
+C:\Task\task.console\bin\Debug\task.console.exe.config
+C:\Task\task.console\obj\Debug\task.console.exe
+C:\Task\task.console\obj\Debug\task.console.pdb
+C:\Task\task.console\obj\Debug\Task.Console.csprojResolveAssemblyReference.cache
+C:\Task\task.console\bin\Debug\task.console.exe
+C:\Task\task.console\bin\Debug\task.console.pdb

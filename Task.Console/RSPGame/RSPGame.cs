@@ -30,7 +30,7 @@
                    player2Input = player2.Throw();
             if (player1Input == player2Input)
             {
-                WriteLine("Tie");
+                WriteLine(GameMessages.TIE);
             }
             else if (player1Input == Shapes.Rock && player2Input == Shapes.Scissor)
             {
