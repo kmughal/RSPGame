@@ -51,16 +51,16 @@ Below is the image of the actual application.
 ### Console Application Output
 
 Below is the screenshot taken from console app:
-[ ](/images/image2.png)
+![ ](images/image2.png)
 
 
 ### Web Application
 
-[ ](/images/image1.png)
+![ ](images/image1.png)
 
 when user make selection
 
-[ ](/images/image3.png)
+![ ](images/image3.png)
 
 
 
