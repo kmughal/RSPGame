@@ -1,0 +1,5 @@
+node_modules
+bin
+/Task.RSP.Web/bin
+/Task.RSP.Domain/bin
+Task.Console/bin

@@ -1,88 +1,96 @@
 ﻿namespace Task.Tests
 {
-    using System;
+    
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Task;
-    using Moq;
+    using static GamesConstants;
 
     [TestClass]    
     public class RSPGameTests
     {
-        Mock<IPlayer> player1Mock;
-        Mock<IPlayer> player2Mock;
-        RSPGame game;
+        
+        IRSPGame rspGame;
 
         [TestInitialize]
         public void Initialize()
         {
-            player1Mock = new Mock<IPlayer>();
-            player2Mock = new Mock<IPlayer>();
+            rspGame = new RSPGame(new InMemoryRepository());
             
         }
 
         [TestMethod]
-        [TestCategory("RSPGame")]
+        [TestCategory("Player 1 :")]
         public void WhenPlayer1ThrowRocksAndPlayer2ThrowsScissorThenPlayer1ShouldWin()
         {
-            player1Mock.Setup(It => It.Throw()).Returns(Shapes.Rock);
-            player2Mock.Setup(It => It.Throw()).Returns(Shapes.Scissor);
-                    
-            game = new RSPGame(player1Mock.Object,player2Mock.Object);
-            game.Play();
+            // arrange
 
-            int player1Score = game.GetPlayer1Score(),
-                player2Score = game.GetPlayer2Score();
+            // act
+            string targetMessage = rspGame.Play(Shapes.Rock, Shapes.Scissor);
+            int player1Score = rspGame.GetPlayer1Score(),
+                player2Score = rspGame.GetPlayer2Score();           
 
+            // assert
             Assert.AreEqual(player1Score > player2Score, true);
+            Assert.AreEqual(PLAYER1_WINS, targetMessage);
         }
 
         [TestMethod]
-        [TestCategory("RSPGame")]
+        [TestCategory("Player 1 :")]
         public void WhenPlayer1ThrowPaperAndPlayer2ThrowsRockThenPlayer1ShouldWin()
         {
-            player1Mock.Setup(It => It.Throw()).Returns(Shapes.Paper);
-            player2Mock.Setup(It => It.Throw()).Returns(Shapes.Rock);
+            // arrange
 
-            game = new RSPGame(player1Mock.Object, player2Mock.Object);
-            game.Play();
+            // act
+            string targetMessage = rspGame.Play(Shapes.Paper, Shapes.Rock);
+            int player1Score = rspGame.GetPlayer1Score(),
+                player2Score = rspGame.GetPlayer2Score();
 
-            int player1Score = game.GetPlayer1Score(),
-                player2Score = game.GetPlayer2Score();
-
+            // assert
             Assert.AreEqual(player1Score > player2Score, true);
+            Assert.AreEqual(PLAYER1_WINS, targetMessage);            
         }
 
         [TestMethod]
-        [TestCategory("RSPGame")]
+        [TestCategory("Player 1 :")]
         public void WhenPlayer1ThrowScissorAndPlayer2ThrowsPaperThenPlayer1ShouldWin()
         {
-            player1Mock.Setup(It => It.Throw()).Returns(Shapes.Scissor);
-            player2Mock.Setup(It => It.Throw()).Returns(Shapes.Paper);
+            // arrange
 
-            game = new RSPGame(player1Mock.Object, player2Mock.Object);
-            game.Play();
+            // act
+            string targetMessage = rspGame.Play(Shapes.Scissor, Shapes.Paper);
+            int player1Score = rspGame.GetPlayer1Score(),
+                player2Score = rspGame.GetPlayer2Score();
 
-            int player1Score = game.GetPlayer1Score(),
-                player2Score = game.GetPlayer2Score();
-
+            // assert
             Assert.AreEqual(player1Score > player2Score, true);
+            Assert.AreEqual(PLAYER1_WINS, targetMessage);
         }
 
         [TestMethod]
-        [TestCategory("RSPGame")]
+        [TestCategory("Player 1 :")]
         public void WhenPlayer1AndPlayer2ThrowsSameShapesThenItShouldTie()
         {
-            player1Mock.Setup(It => It.Throw()).Returns(Shapes.Paper);
-            player2Mock.Setup(It => It.Throw()).Returns(Shapes.Paper);
+            // arrange
 
-            game = new RSPGame(player1Mock.Object, player2Mock.Object);
-            game.Play();
-
-            int player1Score = game.GetPlayer1Score(),
-                player2Score = game.GetPlayer2Score();
-
-            Assert.AreEqual(player1Score == player2Score, true);
+            // act
+            string targetMessage = rspGame.Play(Shapes.Scissor, Shapes.Scissor);            
+            
+            // assert
+            Assert.AreEqual(TIE, targetMessage);
         }
+
+        [TestCategory("Excpetions :")]
+        [TestMethod]
+        [ExpectedException(typeof(InvalidInputException))]
+        public void WhenWrongInputValuesAreProvidedThenCallingPlayShouldThrowInvalidInputException()
+        {
+            PlayersFactory.PlayAsHuman(100);
+        }
+
+        [TestMethod]
+        [TestCategory("Input : ")]
+        public void WhenPlayAsComputerThenInputMustBeValid() => Assert.AreEqual(!((int)PlayersFactory.PlayAsComputer()).IsNotValidShape(), true);
+
 
     }
 }

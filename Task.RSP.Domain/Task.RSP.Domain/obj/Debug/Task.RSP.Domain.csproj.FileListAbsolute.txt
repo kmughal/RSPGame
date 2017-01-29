@@ -1,0 +1,5 @@
+C:\Users\khurr\Desktop\Interview Tests\RSP-Game\RSPGame\Task.RSP.Domain\Task.RSP.Domain\bin\Debug\Task.RSP.Domain.dll
+C:\Users\khurr\Desktop\Interview Tests\RSP-Game\RSPGame\Task.RSP.Domain\Task.RSP.Domain\bin\Debug\Task.RSP.Domain.pdb
+C:\Users\khurr\Desktop\Interview Tests\RSP-Game\RSPGame\Task.RSP.Domain\Task.RSP.Domain\obj\Debug\Task.RSP.Domain.csprojResolveAssemblyReference.cache
+C:\Users\khurr\Desktop\Interview Tests\RSP-Game\RSPGame\Task.RSP.Domain\Task.RSP.Domain\obj\Debug\Task.RSP.Domain.dll
+C:\Users\khurr\Desktop\Interview Tests\RSP-Game\RSPGame\Task.RSP.Domain\Task.RSP.Domain\obj\Debug\Task.RSP.Domain.pdb

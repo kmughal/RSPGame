@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.Console", "task.console\Task.Console.csproj", "{06F83D8E-C8D1-4E5C-98F0-7598A58BE55C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.RSP.Console", "task.console\Task.RSP.Console.csproj", "{06F83D8E-C8D1-4E5C-98F0-7598A58BE55C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.Tests", "Task.Tests\Task.Tests\Task.Tests.csproj", "{04AC62F8-092C-4E52-AA77-D11DAD62715C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.RSP.Tests", "Task.Tests\Task.Tests\Task.RSP.Tests.csproj", "{04AC62F8-092C-4E52-AA77-D11DAD62715C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.RSP.Domain", "Task.RSP.Domain\Task.RSP.Domain\Task.RSP.Domain.csproj", "{866A709F-E4EC-48B0-AAEB-74E43E3A2C32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.RSP.Service", "Task.RSP.Service\Task.RSP.Web\Task.RSP.Service.csproj", "{FBAF9EC6-AF59-4F1C-81AA-CB6436E271D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{04AC62F8-092C-4E52-AA77-D11DAD62715C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04AC62F8-092C-4E52-AA77-D11DAD62715C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04AC62F8-092C-4E52-AA77-D11DAD62715C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{866A709F-E4EC-48B0-AAEB-74E43E3A2C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{866A709F-E4EC-48B0-AAEB-74E43E3A2C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{866A709F-E4EC-48B0-AAEB-74E43E3A2C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{866A709F-E4EC-48B0-AAEB-74E43E3A2C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBAF9EC6-AF59-4F1C-81AA-CB6436E271D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBAF9EC6-AF59-4F1C-81AA-CB6436E271D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBAF9EC6-AF59-4F1C-81AA-CB6436E271D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBAF9EC6-AF59-4F1C-81AA-CB6436E271D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

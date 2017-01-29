@@ -1,26 +1,70 @@
-﻿# Rock, Paper, Scissors
-                                                  
-As a frequent games player,                      
-I'd like to play rock, paper, scissors           
-so that I can spend an hour of my day having fun 
-                                                  
- ## *Acceptance Criteria                              
-  - Can I play Player vs Computer?                
-  - Can I play Computer vs Computer?              
-  - Can I play a different game each time?
+﻿# Rock, Paper, Scissors Game
 
-## *Technical Constraints/Considerations
-                                                  
- - Doesn't necessarily need a flashy GUI (can be simple)                                
- - Use .NET toolset (i.e. c#) and any associated plug ins you see fit 			   
- - Use best industry practices         	   
+## Technology Stack Used:
+In order to complete this code example following stack has been used.
 
- 
-Don't know the game? [http://en.wikipedia.org/wiki/Rock-paper-scissors](http://en.wikipedia.org/wiki/Rock-paper-scissors)
+### Front End
+- ES6
+- Angular
+- Bootstrap
+- SCSS
+- Web Pack
+- Node
 
-### Hints/Tips:
+In order to run the front end I suggest following commands:
 
-Will be looking for a scaled down version (think minimum viable product). Extend if the time allows.
-No database (i.e. session stored), simple interface - 2 hours' worth of work, bear this in mind when designing
-I'm not looking for a full blown thing, just something small and well crafted.
-Looking for unit tests and well factored code (C#).
+```
+  go to command prompt after installing node
+  navigate to > Task.RSP.Web (Folder) then
+  npm install (this will install all dependencies)
+  npm run build ( this will start the webpack and turn on the --watch flag so if you change the codebase then it will rebuild the js bundle )
+
+```
+
+
+### Back End
+- .Net Framework 4.5.2
+- Ninject as Ioc Container
+- ASP.NET WEB API 2.0
+
+
+## Project Structure
+
+Layered architecture is used to build the project which gives ability to extend it in future.
+
+- Task.RSP.Console: this is simple console application.
+- Task.RSP.Domain: this contains the actual domain.
+- Task.RSP.Service: this contains information about service  and ioc container though ioc container can be moved into another project but in order to have the simplicity it is kept in service layer.
+- Task.RSP.Tests: this contains some basic unit tests which are essential for the domain though with more time more tests can be added.
+
+## Run Project
+
+We advice to create two different web site in IIS:
+1. Front end
+2. Back end ( call it `game` as this has been hardcoded in the angular service url but you can always change this !)
+
+
+## Screen shots
+
+Below is the image of the actual application.
+
+### Console Application Output
+
+Below is the screenshot taken from console app:
+[ ](/images/image2.png)
+
+
+### Web Application
+
+[ ](/images/image1.png)
+
+when user make selection
+
+[ ](/images/image3.png)
+
+
+
+
+
+
+

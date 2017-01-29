@@ -1,0 +1,11 @@
+C:\Users\khurr\Desktop\Interview Tests\RSP-Game\RSPGame\Task.Tests\Task.Tests\bin\Debug\Task.Tests.dll
+C:\Users\khurr\Desktop\Interview Tests\RSP-Game\RSPGame\Task.Tests\Task.Tests\bin\Debug\Task.Tests.pdb
+C:\Users\khurr\Desktop\Interview Tests\RSP-Game\RSPGame\Task.Tests\Task.Tests\bin\Debug\Castle.Core.dll
+C:\Users\khurr\Desktop\Interview Tests\RSP-Game\RSPGame\Task.Tests\Task.Tests\bin\Debug\Moq.dll
+C:\Users\khurr\Desktop\Interview Tests\RSP-Game\RSPGame\Task.Tests\Task.Tests\bin\Debug\Task.RSP.Domain.dll
+C:\Users\khurr\Desktop\Interview Tests\RSP-Game\RSPGame\Task.Tests\Task.Tests\bin\Debug\Task.RSP.Domain.pdb
+C:\Users\khurr\Desktop\Interview Tests\RSP-Game\RSPGame\Task.Tests\Task.Tests\bin\Debug\Castle.Core.xml
+C:\Users\khurr\Desktop\Interview Tests\RSP-Game\RSPGame\Task.Tests\Task.Tests\bin\Debug\Moq.xml
+C:\Users\khurr\Desktop\Interview Tests\RSP-Game\RSPGame\Task.Tests\Task.Tests\obj\Debug\Task.RSP.Tests.csprojResolveAssemblyReference.cache
+C:\Users\khurr\Desktop\Interview Tests\RSP-Game\RSPGame\Task.Tests\Task.Tests\obj\Debug\Task.Tests.dll
+C:\Users\khurr\Desktop\Interview Tests\RSP-Game\RSPGame\Task.Tests\Task.Tests\obj\Debug\Task.Tests.pdb
